@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.6.4",
+    "@clerk/themes": "^2.1.33",
+    "@geist-ui/icons": "^1.0.2",
+    "@uploadthing/react": "^7.0.2",
+    "lucide-react": "^0.447.0",
+    "mongoose": "^8.7.0",
+    "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "svix": "^1.36.0",
+    "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^7.0.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "typescript": "^5"
   }
 }

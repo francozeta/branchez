@@ -21,7 +21,7 @@ const LeftSidebar = () => {
           return (
             <Link
               key={link.label}
-              href={link.label}
+              href={link.route}
               className={`leftsidebar_link  ${isActive && 'bg-primary-500'}`}
 
             >

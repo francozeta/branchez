@@ -1,4 +1,4 @@
-import { OrganizationSwitcher, SignedIn, SignOutButton } from '@clerk/nextjs'
+import { SignedIn, SignOutButton, UserButton } from '@clerk/nextjs'
 import Link from 'next/link'
 import React from 'react'
 
@@ -14,23 +14,17 @@ const Topbar = () => {
         </svg>
         <span className='text-heading3-bold text-light-1 max-xs:hidden'>Branchez</span>
       </Link>
-      <div className='flex items-center gap-1'>
+      <div className='flex items-center gap-1 py-2' >
         <div className='block md:hidden'>
           <SignedIn >
             <SignOutButton>
               <div className='flex cursor-pointer'>
-                <LogOut size={24} color='white'/>
+                <LogOut size={24} color='white' />
               </div>
             </SignOutButton>
           </SignedIn>
         </div>
-
-        <OrganizationSwitcher appearance={{
-          elements: {
-            organizationSwitcherTrigger:
-              'py-2 px-4'
-          }
-        }} />
+        <UserButton />
       </div>
     </nav>
   )

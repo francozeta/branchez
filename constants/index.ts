@@ -1,4 +1,16 @@
-import { FilePlus, Globe, Heart, Home, MessageSquare, Search, Tag, User, UserPlus, Users, } from '@geist-ui/icons';
+import {
+  FilePlus,
+  Globe,
+  Heart,
+  Home,
+  MessageSquare,
+  Search,
+  Tag,
+  User,
+  UserPlus,
+  Users,
+
+} from '@geist-ui/icons';
 
 export const sidebarLinks = [
   {

@@ -31,13 +31,13 @@ export default function RootLayout({
     <ClerkProvider appearance={{
       baseTheme: dark
     }}>
-  <html lang='en'>
-    <body
-      className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
-    >
-      {children}
-    </body>
-  </html>
+      <html lang='en'>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-dark-1 text-light-1`}
+        >
+          {children}
+        </body>
+      </html>
     </ClerkProvider >
   )
 }
